@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../muhammadvadud2/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+</head>
+
+<body class="body">
+    
+    <div class="main ">
+        <form name="form">
+            <input type="text" class="textview" name="textview" />
+        </form>
+
+        <table class="Table">
+            <tr>
+                <td>
+                    <input type="button" class="button rox" value="C" onclick="tozalash()" />
+                </td>
+                <td>
+                    <input type="button" class="button rox" value="←" onclick="ochirish()">
+                </td>
+                <td>
+                    <input type="button" class="button rox" value="/" onclick="yoz('/')" />
+                </td>
+                <td>
+                    <input type="button" class="button rox" value="*" onclick="yoz('*')" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" class="button" value="7" onclick="yoz(7)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="8" onclick="yoz(8)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="9" onclick="yoz(9)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="-" onclick="yoz('-')" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" class="button" value="4" onclick="yoz(4)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="5" onclick="yoz(5)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="6" onclick="yoz(6)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="+" onclick="yoz('+')" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" class="button" value="1" onclick="yoz(1)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="2" onclick="yoz(2)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="3" onclick="yoz(3)" />
+                </td>
+                <td rowspan="2">
+                    <input type="button" style="height: 165px" class="button  rix" value="=" onclick="hisob()" />
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="button" style="width: 165px" class="button" value="0" onclick="yoz(0)" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="." onclick="yoz  ('.')" />
+                </td>
+            </tr>
+        </table>
+    </div>
+  
+
+
+
+
+    <script src="js/JavaScript.js"></script>
+</body>
+
+</html>
